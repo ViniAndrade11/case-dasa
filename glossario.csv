@@ -1,0 +1,32 @@
+coluna,tipo,descricao,tratamento_erro
+employee_id,object,ID único do funcionário,Nenhum
+job_title,object,Cargo ou título do funcionário,Nenhum
+department,object,Departamento em que o funcionário atua,Nenhum
+location,object,Localização da unidade ou escritório,Nenhum
+salary,float64,Salário atual do funcionário,Nenhum
+hire_date,datetime64,Data de admissão na empresa,Convertido para datetime
+termination_date,datetime64,Data de saída da empresa (se aplicável),Convertido para datetime
+is_active,bool,Se o funcionário está ativo atualmente,Nenhum
+absence_days,int64,Dias de ausência registrados,Nenhum
+sick_days,int64,Dias de licença médica registrados,Nenhum
+vacation_days_taken,int64,Dias de férias utilizados,Nenhum
+bank_hours,int64,Horas de banco de horas acumuladas,Nenhum
+overtime_hours,int64,Horas extras trabalhadas,Nenhum
+tardiness_count,int64,Quantidade de atrasos registrados,Nenhum
+gender,object,Gênero do funcionário,Nenhum
+marital_status,object,Estado civil,Nenhum
+number_of_dependents,int64,Número de dependentes declarados,Nenhum
+education_level,object,Nível de escolaridade,Nenhum
+performance_rating,int64,Avaliação de desempenho,Nenhum
+bonus_percentage,float64,Porcentagem de bônus,Dividido por 100
+shift,object,Turno de trabalho,Nenhum
+contract_type,object,Tipo de contrato,Nenhum
+cost_center,object,Centro de custo que o funcionário está,Nenhum
+compliance_status,object,Status compliance,Nenhum
+health_plan,object,Tipo de plano de saúde,Nenhum
+email,object,Email,Nenhum
+tenure_years,float64,Tempo de empresa em anos,Nenhum
+probation_completed,bool,Se o funcionário concluiu o período de experiência,Nenhum
+manager_id,object,ID do gestor direto,Nenhum
+last_promotion_date,datetime64,Data da última promoção recebida,Convertido para datetime
+last_training_date,datetime64,Data do último treinamento realizado,Convertido para datetime e preenchido com valores nulos datas menores que a data de contratação
