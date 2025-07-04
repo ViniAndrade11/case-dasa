@@ -3,7 +3,7 @@ employee_id,object,ID único do funcionário,Nenhum
 job_title,object,Cargo ou título do funcionário,Nenhum
 department,object,Departamento em que o funcionário atua,Nenhum
 location,object,Localização da unidade ou escritório,Nenhum
-salary,float64,Salário atual do funcionário,Nenhum
+salary,float64,Salário atual do funcionário,Substituido ponto por vírgula para PBI ler corretamente
 hire_date,datetime64,Data de admissão na empresa,Convertido para datetime
 termination_date,datetime64,Data de saída da empresa (se aplicável),Convertido para datetime
 is_active,bool,Se o funcionário está ativo atualmente,Nenhum
@@ -18,7 +18,7 @@ marital_status,object,Estado civil,Nenhum
 number_of_dependents,int64,Número de dependentes declarados,Nenhum
 education_level,object,Nível de escolaridade,Nenhum
 performance_rating,int64,Avaliação de desempenho,Nenhum
-bonus_percentage,float64,Porcentagem de bônus,Dividido por 100
+bonus_percentage,float64,Porcentagem de bônus,Dividido por 100 e substituido ponto por vírgula para PBI ler corretamente
 shift,object,Turno de trabalho,Nenhum
 contract_type,object,Tipo de contrato,Nenhum
 cost_center,object,Centro de custo que o funcionário está,Nenhum
