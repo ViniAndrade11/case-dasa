@@ -54,12 +54,12 @@ Todas as alterações foram registradas em commits no repositório, com mensagen
 
 Este processo garante rastreabilidade e organização, como solicitado no case.
 
-## 🚧 Próximos Passos
+## Próximos Passos
 
 - Desenvolver um painel adicional com dados de **folha de pagamento**, integrando métricas financeiras por colaborador.
 - Criar um **modelo de machine learning** para prever **possíveis turnovers futuros**, utilizando variáveis históricas como absenteísmo, tempo de casa, horas extras, entre outras.
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - Python (Pandas, NumPy)
 - Jupyter Notebook
