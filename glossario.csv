@@ -6,14 +6,14 @@ location,object,Localização da unidade ou escritório,Nenhum
 salary,float64,Salário atual do funcionário,Substituido ponto por vírgula para PBI ler corretamente
 hire_date,datetime64,Data de admissão na empresa,Convertido para datetime
 termination_date,datetime64,Data de saída da empresa (se aplicável),Convertido para datetime
-is_active,bool,Se o funcionário está ativo atualmente,Nenhum
+is_active,bool,Se o funcionário está ativo atualmente,Traduzido dados para português
 absence_days,int64,Dias de ausência registrados,Nenhum
 sick_days,int64,Dias de licença médica registrados,Nenhum
 vacation_days_taken,int64,Dias de férias utilizados,Nenhum
 bank_hours,int64,Horas de banco de horas acumuladas,Nenhum
 overtime_hours,int64,Horas extras trabalhadas,Nenhum
 tardiness_count,int64,Quantidade de atrasos registrados,Nenhum
-gender,object,Gênero do funcionário,Nenhum
+gender,object,Gênero do funcionário,Traduzido dados para português
 marital_status,object,Estado civil,Nenhum
 number_of_dependents,int64,Número de dependentes declarados,Nenhum
 education_level,object,Nível de escolaridade,Nenhum
