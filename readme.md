@@ -18,12 +18,13 @@ Scripts Python utilizados no projeto:
 ###  `modelo_analitico/`
 #### Tabela Fato
 Modelagem analítica com:
-- `fato_turnover.csv`
+- `tabela_fato_colaborador.csv`
 Contém os fatos e métricas principais como:
   - Turnover
   - Tempo de contrato
   - Número de ausências
-  - Headcount
+  - Tempo de Férias
+  - Banco de horas e Hora extra
   - Chaves para as tabelas de dimensão
 
 #### Tabelas de Dimensão
